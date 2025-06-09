@@ -1,3 +1,5 @@
+This fork of Showdown adds "coolmod", a rebalancing mod. Nothing special.
+
 Pokémon Showdown
 ========================================================================
 
