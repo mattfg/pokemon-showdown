@@ -18,7 +18,7 @@ The column value will be ignored for repeat sections.
 */
 
 export const Formats: import('../sim/dex-formats').FormatList = [
-
+/*
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
@@ -3998,7 +3998,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		// no restrictions, for serious (other than team preview)
 		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
-
+*/
 	// OR/AS Singles
 	///////////////////////////////////////////////////////////////////
 
@@ -4012,6 +4012,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		searchShow: false,
 		ruleset: ['Standard', 'Swagger Clause', 'Mega Rayquaza Clause'],
 	},
+	{
+		name: "[Coolmod G6]",
+		mod: 'coolmod',
+		searchShow: false,
+		ruleset: ['Standard', 'Swagger Clause', 'Mega Rayquaza Clause'],
+	},
+/*
 	{
 		name: "[Gen 6] UU",
 		mod: 'gen6',
@@ -4780,4 +4787,5 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		battle: { trunc: Math.trunc },
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Desync Clause Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
+*/
 ];
